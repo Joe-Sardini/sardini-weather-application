@@ -8,8 +8,6 @@ const formClick = function (e) {
     getWeather(search.value);
 }
 
-console.log('Test');
-
 const getWeather = (address) => {
     messageOne.textContent = '';
     messageTwo.textContent = 'Loading';
